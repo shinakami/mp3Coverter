@@ -18,8 +18,8 @@ def getFileName(filepath):
     return file_list
 
 if __name__ == '__main__':
-    folder = 'C:/Users/User/Desktop/戰乙女OST/戰乙女專輯DLC/'
-    savepath = 'C:/Users/User/Desktop/戰乙女OST/戰乙女專輯DLC/MP3_file/'
+    folder = 'C:/Users/User/Desktop/Wav_folder/'
+    savepath = 'C:/Users/User/Desktop/MP3_folder/'
     wav_list = getFileName(folder)
     for item in wav_list:
         wav2mp3(item, savepath)
